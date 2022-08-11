@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to CoCoTalk</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c5ab2c9683.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>NO Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>22:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>2%</span>
+        <i class="fa-solid fa-battery-empty"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="Welcome-header">
+      <h1 class="Welcome-header__title">Welcome to CoCoTalk</h1>
+      <p class="Welcome-header__text">
+        If you have a CoCo Acoount,<br />log in with you email or phone number.
+      </p>
+    </header>
+
+    <form action="friend.html" method="get" id="login-form">
+      <input name="ID" type="text" placeholder="Email or phone number" />
+      <input name="Password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find CoCo Account or Password</a>
+    </form>
+  </body>
+</html>
